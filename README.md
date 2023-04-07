@@ -1,13 +1,13 @@
 欢迎来到HTCPCD
 ==================
 
-这是一个来自2013年的项目，来源于一个HTTP的一个梗：418 I‘m a teapot
+这是一个来自2013年的项目，来源于一个HTTP的一个梗：418 I‘m a teapot。要使用这个项目，你只需要准备一个Arduino开发板、LED灯和一个茶壶。
 由于这是一个来自十年前的的项目，且README是法语的。在十年后的今天我搜索到了这个项目，并且对他进行汉化。原 [项目地址](https://github.com/gelendir/htcpcpd)
 
 HTCPCPD 是 HTCPCP 协议的实现
 通过HTTP控制咖啡机。欲了解更多详情，请 [转到项目网页](http://gelendir.github.com/htcpcpd/)（当然，在今天这个网址已经404了）
 
-HTCPCP 实施
+HTCPCP 使用
 ==================================
 
 Arduino的安装
