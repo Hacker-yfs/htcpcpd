@@ -1,62 +1,58 @@
-Bienvenue à HTCPCD
+欢迎来到HTCPCD
 ==================
 
-HTCPCPD est une implémentation du protocole HTCPCP permettant de
-contrôler une cafetière à travers HTTP. Pour plus de détails, veuillez
-vous rendre sur [La page web du projet](http://gelendir.github.com/htcpcpd/)
+这是一个来自2013年的项目，来源于一个HTTP的一个梗：418 I‘m a teapot
+由于这是一个来自十年前的的项目，且README是法语的。在十年后的今天我搜索到了这个项目，并且对他进行汉化。原 [项目地址](https://github.com/gelendir/htcpcpd)
 
-Implémentation du protocole HTCPCP
+HTCPCPD 是 HTCPCP 协议的实现
+通过HTTP控制咖啡机。欲了解更多详情，请 [转到项目网页](http://gelendir.github.com/htcpcpd/)（当然，在今天这个网址已经404了）
+
+HTCPCP 实施
 ==================================
 
-Installation du Arduino
+Arduino的安装
 -----------------------
-Pour installer le code Arduino, il suffit de compiler le code via l'IDE Arduino
-et de le transférer à l'Arduino à l'aide de l'IDE. L'Arduino doit être en tout
-temps connecté lors de la communication avec le service HTCPCPD.
+要安装 Arduino 代码，只需通过 Arduino IDE 编译代码即可
+并使用IDE将其传输到 Arduino。Arduino必须在一切中
+与 HTCPCPD 服务通信时连接的时间。
 
-Utilisation du serveur et du client
+服务器和客户端使用情况
 ------------------------------------
 
-### Préalable ###
+### 先决条件 ###
 
-Le seul préalable pour le serveur HTCPCPD et le client est d'avoir installé
-l'interprétateur Python version 2.7.
+HTCPCPD服务端和客户端的唯一先决条件是已安装 Python 2.7。
 
-### Installation ###
+### 安装 ###
 
-Pour l'installation du serveur et du client, vous devez vous rendre dans le 
-répertoire htcpcpd en ligne de commande et de rentrer la commande suivante:
+对于服务器和客户端安装，您必须转到HTCPCPD的根目录，然后输入以下命令：
 
 	python2 setup.py install
 
-### Utilisation du serveur ###
+### 启动服务端 ###
 
-Pour utiliser le serveur, il suffit de rentrer la commande suivante:
+要启动服务端，只需输入以下命令：
 	
 	htcpcpd -c htcpcpd.ini
 
-où « htcpcpd.ini » est le fichier de configuration.
+其中“htcpcpd.ini”是配置文件。
 
-Le port par défaut du fichier de configuration est 8000.
+配置文件所写的默认端口是8000。
 
-La ligne « pidfile » dans le fichier de configuration indique le fichier dans 
-lequel le fichier du pid du service sera mis. Il peut être utile afin de tuer
-le processus pour arrêter le service.
+配置文件中的“pidfile”表示HTCPCD服务的pid，方便结束HTCPCD的进程。
 
-La ligne « logfile » dans le fichier de configuration est utilisé pour mettre 
-les logs du serveur HTCPCPD.
+配置文件中的“logfile”用于设置HTCPCPD服务端日志位置。
 
-### Utilisation du client ###
+### 启动客户端 ###
 
-Pour utiliser le client, il suffit de rentrer la commande suivante:
+要使用客户端，只需输入以下命令：
 
 	htcpcp-client localhost 8000
 
-où les deux arguments ne sont pas obligatoire. Le premier indique l'adresse du
-serveur HTCPCPD et le deuxième le port du serveur.
+这两个参数都不强制性使用。第一个表示HTCPCPD服务端地址，第二个表示服务端端口。
 
 ### License ###
 
-Ce projet est sous license GPLv3. La license est disponible à la page
-suivante : http://www.gnu.org/licenses/gpl-3.0.txt
+该项目使用 GPL V3许可
+可在此处查看 : http://www.gnu.org/licenses/gpl-3.0.txt
 
