@@ -13,9 +13,7 @@ HTCPCP 使用
 
 Arduino的安装
 -----------------------
-要安装 Arduino 代码，只需通过 Arduino IDE 编译代码即可
-并使用IDE将其传输到 Arduino。Arduino必须在一切中
-与 HTCPCPD 服务通信时连接的时间。
+要安装Arduino代码，只需通过Arduino IDE编译代码即可并使用IDE将其传输到Arduino。Arduino必须保持与HTCPCPD的服务端实时通信。
 
 服务器和客户端使用情况
 ------------------------------------
