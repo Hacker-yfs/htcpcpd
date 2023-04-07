@@ -6,6 +6,7 @@
 
 HTCPCPD 是 HTCPCP 协议的实现
 通过HTTP控制咖啡机。欲了解更多详情，请 [转到项目网页](http://gelendir.github.com/htcpcpd/)（当然，在今天这个网址已经404了）
+这是RFC 2324的网址：https://www.rfc-editor.org/rfc/rfc2324
 
 HTCPCP 使用
 ==================================
